@@ -1,0 +1,360 @@
+
+/*LAS PRUEBAS PARA RESPONSIVE LAS REALICE
+PRINCIPALMENTE CON TAMAÑOS: IPHONE XR PARA MOVIL, IPAD 
+PARA TABLET Y LA PANTALLA DE MI NOTEBOOK
+PARA DESKTOP*/
+
+/*NAV*/
+
+nav {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: space-between;
+
+
+}
+
+.logo {
+    width: 30%;
+    height: 50%;
+    margin: 5px 0px 10px 5px;
+}
+
+/*menu -lista de páginas internas*/
+.lista {
+    display: flex;
+    margin-right: 25px;
+    margin-top: 35px;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none;
+}
+
+.lista li a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+/*Animación CSS para que cambie de color cuando paso el mouse*/
+.lista li a:hover {
+    color: greenyellow;
+}
+
+/*HEADER*/
+header {
+    height: 450px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+/*background del header*/
+    background-color: black;
+    background-size: cover;
+    background-position: center center;  
+
+}
+
+/*titulo del header*/
+header h1 {
+    color: white;
+    font-size: 45px;
+    font-style: normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+
+
+
+}
+
+/*boton CTA "Nosotros" envia a la pagina About*/
+
+header p {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    height: 100%; 
+    margin-top: 0;
+    padding: 5px;
+}
+
+/*Estilo de boton*/
+.btn-art {
+    background-color: greenyellow;
+    color:black;
+    padding: 10px 20px;
+    border: 2px solid white ;
+    border-radius: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/*Animación CSSS para qe el boton se modifique cuando paso el mouse*/
+.btn-art:hover {
+    background-color: white;
+    border: 2px solid yellowgreen;
+
+}
+
+/*CARDS OPINIONES - Elemento Bootstrap*/
+
+.TituloClientes h1 {
+    background-color: white;
+    color: black;
+    text-align: center;
+    background-color: greenyellow;
+}
+
+.card {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.card-title {
+    font-size: larger;
+
+}
+
+.card-text {
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Seccion Qué es el MKTDIGITAL*/
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60 px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 6px 11px 5px -3px color black;
+    align-items: center;
+    margin-left: 5px;
+    
+}
+
+.tittle-mkt {
+    color: greenyellow;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    margin-left:  15px;
+    margin-top: 15px;
+    text-align: center;
+    align-items: center;
+
+}
+
+
+.imgmkt {
+    width: 90%;
+    height: 100%;
+    margin-top: 40 px;
+    border-radius: 20%;
+    margin-right: 5%;
+    margin-left: 5%;
+
+}
+
+.text-mkt {
+    margin-left: 15%;
+    margin-right: 15%;
+    color: black;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.BotonMKT {
+    margin-top: 130px;
+}
+
+
+/*HEADER PARA PAGE "ABOUT"*/
+.HeaderAbout {
+    background-color: black;
+    height: 130px;
+    width: 100%;
+}
+
+.HeaderAbout h1 {
+    font-size: xx-large;
+    font-family: Helvetica, sans-serif;
+    color: white;
+}
+
+/*Seccion Sobre Nosotros PAGE ABOUT*/
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60 px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 6px 11px 5px -3px color black;
+    align-items: center;
+    margin-left: 5px;
+    
+}
+
+.tittle-about {
+    color: yellowgreen;
+    font-family:Helvetica, sans-serif;
+    font-size: larger;
+    margin-left:  15px;
+    margin-top: 15px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.img-about {
+    width: 100%;
+    height: 70%;
+    margin-top: 40 px;
+}
+
+.text-about {
+    margin-left: 5%;
+    margin-right: 5%;
+    color: black;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Formulario de contacto*/
+.contacto {
+    width: 100%;
+    height: 100%;
+    margin-top: 350px;
+    background-color: yellowgreen;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.formulario {
+    margin-top: 80px;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+form {
+    width: 80%;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    padding: 20px;
+    
+}
+
+.btn-sumit {
+    width: 50%;
+    height: 30px;
+    background-color: magenta;
+    color: yellowgreen;
+    border-radius: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.btn-sumit:hover {
+    color: magenta;
+    background-color: yellowgreen;
+}
+
+/*FOOTER*/
+footer {
+    background-color: lightpink;
+    width: 100%;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}   
+
+footer h3 {
+    margin: 250px 0px 12px 0px;
+    text-align: center;
+    font-weight: 10%;
+}
+footer a {
+    text-decoration: none;
+    color: rgb(255, 0, 200);
+}
+
+
+/*RESPONSIVE Tablet*/
+
+@media (min-width:767px) {
+/*Cambios en tamaño de logo y elementos del menú para que 
+quede más estetico el NAV en Tabletas*/
+    .logo {
+        width: 20%;
+        height: 20%;
+        margin: 5px 0px 10px 5px;
+    }
+    .lista {
+        flex-direction: row;
+        margin-top: 65px;
+        margin-left: 5%;
+    }
+    .lista li a{
+        margin-left: 50px;
+    }
+/*Cmabio en el tamaño y magen (porque se superponia) del footer*/
+    footer {
+        width: 100%;
+        height: 100%;
+        margin-top: 400px;
+    } 
+/*Cambio en el margen superior porque se superponia*/
+    .contacto {
+        margin-top: 300px;
+    }
+
+}
+
+/*RESPONSIVE desktop*/
+@media (min-width:1199px) {
+/*Cambios en tamaño de logo para que 
+quede más estetico el NAV en desktop*/
+    .logo {
+        width: 10%;
+        height: 10%;
+        margin: 5px 0px 10px 5px;
+    }
+/*Cmabio en el tamaño y magen (porque se superponia) del footer*/
+    footer {
+        width: 100%;
+        height: 100%;
+        margin-top: 600px;
+    }
+/*Cambio tamaño y margen por estetica*/
+    .contacto {
+        margin-top: 320px;
+        width: 30%;
+        height: 40%;
+        border-radius: 20px;
+        position: absolute;
+        left: 35%;
+    }
+/*Cambio de tamño por cuestiones esteticas*/
+    .img-about {
+        width:90%;
+        height: 70%;
+        margin-top: 40 px;
+    }
+
+    
+}
